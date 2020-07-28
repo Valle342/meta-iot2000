@@ -9,7 +9,7 @@ target: iot2000-example-image
 repos:
   meta-iot2000:
     layers:
-      meta-iot2000-example:
+      meta-iot2000-custom:
 
   meta-openembedded:
     layers:
