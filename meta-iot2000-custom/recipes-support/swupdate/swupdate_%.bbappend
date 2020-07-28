@@ -6,7 +6,8 @@ SRC_URI += " \
     file://swupdate_handlers.lua \
     file://tools_makefile.patch \
     file://progress_firmware.c \
-    file://swupdate.cfg"
+    file://swupdate.cfg \
+    file://defconfig"
 
 FILES_${PN} += "/etc/swupdate.cfg /usr/bin/progress_firmware"
 
