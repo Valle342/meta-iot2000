@@ -10,7 +10,7 @@ SRC_URI += " \
 
 FILES_${PN} += "/etc/swupdate.cfg /usr/bin/progress_firmware"
 
-DEPENDS += "efibootguard json-c systemd"
+DEPENDS += "efibootguard json-c"
 
 INHIBIT_UPDATERCD_BBCLASS = "1"
 
