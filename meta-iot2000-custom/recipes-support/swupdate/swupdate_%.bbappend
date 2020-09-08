@@ -1,6 +1,6 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/swupdate:"
 
-SRCREV = "012374087c747f05216a7f002e4b8a34bc142c52"
+SRCREV = "58a9997fdac311dda2449228a36edec77f88674a"
 
 SRC_URI += " \
     file://swupdate_handlers.lua \
