@@ -27,6 +27,6 @@ INSANE_SKIP_${PN}_append = " already-stripped"
 do_install_append() {
     install -d ${D}${sysconfdir}
     install -m 644 ${WORKDIR}/swupdate.cfg ${D}${sysconfdir}/swupdate.cfg
-    install -m 644 ${S}/chain.pem ${D}${sysconfdir}/chain.pem
+    install -m 644 ${WORKDIR}/chain.pem ${D}${sysconfdir}/chain.pem
     install -m 755 ${S}/tools/progress_firmware ${D}/usr/bin/progress_firmware
 }
