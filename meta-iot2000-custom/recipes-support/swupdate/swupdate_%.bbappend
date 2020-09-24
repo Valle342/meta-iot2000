@@ -7,7 +7,8 @@ SRC_URI += " \
     file://tools_makefile.patch \
     file://progress_firmware.c \
     file://swupdate.cfg \
-    file://chain.pem"
+    file://chain.pem \
+    file://swupdate.sh"
 
 FILES_${PN} += "/etc/swupdate.cfg /usr/bin/progress_firmware"
 
